@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script defer src="./index.js"></script>
+    <header class="header">
+      <span>
+        <img
+          src="https://www.rottentomatoes.com/assets/pizza-pie/images/rottentomatoes_logo_40.336d6fe66ff.png"
+          alt="previewLogo"
+          width="100px"
+        />
+      </span>
+      <form id="header__searchbar">
+        <input placeholder="Search Movie/TV Shows" type="text" id="search" />
+      </form>
+      <div class="header__btngroup">
+        <button>
+          <a href="register.html">Sign Up</a>
+        </button>
+        <button id="loginBtn">
+          <a href="login.html">Login</a>
+        </button>
+        <button id="logOutBtn">Sign Out</button>
+      </div>
+    </header>
+    <main>
+      <div class="movie__container" id="movieContainer"></div>
+      <button id="showMore">Show More</button>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "sans-serif";
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  font-size: 1rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border-bottom: 1px solid #dedede;
+}
+/* 1rem = 16px
+0.5rem = 8px
+*/
+.header__btngroup {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.header__btngroup > button {
+  padding: 0.35rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #dedede;
+  border-radius: 1rem;
+}
+.header__btngroup > button > a {
+  color: white;
+  text-decoration: none;
+}
+.movie__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.6rem;
+  margin: 0.7rem;
+  color: white;
+}
+.movie__card {
+  border: 1px solid #dedede;
+}
+.movie__card > img {
+  width: 100%;
+}
+.orangeSpan {
+  color: orange;
+}
+.purpleSpan {
+  color: purple;
+}
+#registerForm {
+    
+}
